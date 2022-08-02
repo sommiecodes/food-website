@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <script src="https://kit.fontawesome.com/20c90b7a6d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Sidebar (hidden by default) -->
+    <nav id="mySidebar" class="sidebar xlarge top animate-left"
+        style="z-index: 2;width: 40%;min-width: 300px; display: none;">
+        <a href="javascript:void(0)" class="baritem button sidemenu" onclick="closeSideMenu()">Close Menu</a>
+        <a href="#food" class="baritem button sidemenu" onclick="closeSideMenu()">Food</a>
+        <a href="#about" class="baritem button sidemenu" onclick="closeSideMenu()">About</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="top_container white xlarge top" style="max-width:1200px;margin:auto;">
+        <div class="padding-16 fas fa-bars" onclick="openSideMenu()"></div>
+        <div class="padding-16">My Food</div>
+        <div class="padding-16">Mail</div>
+    </div>
+
+
+
+    <!-- Page content -->
+    <div class="main content padding" style="max-width: 1200px; margin-top: 100px">
+        <!-- First Photo Grid -->
+        <div class="row padding-16 center" id="food">
+            <div class="quarter">
+                <img src="images/sandwich.jpg" alt="Sandwich" style="width:100%;">
+                <h3>The perfect Sandwich, a Real NYC Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="quarter">
+                <img src="images/steak.jpg" alt="Steak" style="width:100%;">
+                <h3>Let Me Tell You About This Steak</h3>
+                <p>Once again, some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="quarter">
+                <img src="images/cherries.jpg" alt="Cherries" style="width: 100%;">
+                <h3>Cherries, interrupted</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                <p>What else?</p>
+            </div>
+            <div class="quarter">
+                <img src="images/wine.jpg" alt="Pasta and Wine" style="width: 100%;">
+                <h3>Once again, Robust Wine and Vegetable Pasta</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Second Grid -->
+    <div class="row padding-16 center" id="food">
+        <div class="quarter">
+            <img src="images/popsicle.jpg" alt="Popsicle" style="width: 100%;;">
+            <h3>All I Need Is a Popsicle</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="quarter">
+            <img src="images/salmon.jpg" alt="Salmon" style="width: 100%;">
+            <h3>Salmon For Your Skin</h3>
+            <p>Once again, some random text to lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="quarter">
+            <img src="images/sandwich.jpg" alt="Sandwich" style="width:100%">
+            <h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="quarter">
+            <img src="images/croissant.jpg" alt="Croissant" style="width: 100%;">
+            <h3>Le French</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="padding-32 center">
+        <div class="pagination">
+            <a href="#" class="baritem button">&laquo;</a>
+            <a href="#" class="baritem button active" style="color: white;">1</a>
+            <a href="#" class="baritem button">2</a>
+            <a href="#" class="baritem button">3</a>
+            <a href="#" class="baritem button">4</a>
+            <a href="#" class="baritem button">&raquo;</a>
+        </div>
+    </div>
+
+
+
+    <hr id="about">
+
+    <!-- About Section -->
+    <div class="container padding-32 center">
+        <h3>About Me, The Food Man</h3><br>
+        <img src="images/chef.jpg" alt="Me" class="image" style="display: block;margin:auto;" width="800" height="533">
+        <div class="padding-32">
+            <p style="font-size: 20px;"><b>I am Who I Am!</b></p>
+            <br>
+            <p style="font-size: 16px;"><i>With Passion For Real, Good Food</i></p>
+            <br>
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of
+                lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus
+                ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Footer -->
+    <footer class="row padding-32">
+        <div class="first" style="padding-right: 10px;">
+            <h3>FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p><br>
+            <p>Supported by <a href="https://www.topibrotech.com" target="_blank">Topibro Technologies</a></p>
+        </div>
+
+        <div class="second">
+            <h3>BLOG POSTS</h3>
+            <ul>
+                <li class="padding-16 bottom">
+                    <img src="images/workshop.jpg" class="left margin-right" style="width:50px">
+                    <span class="large">Lorem</span><br>
+                    <span>Sed mattis nunc</span>
+                </li>
+                <li class="padding-16">
+                    <img src="images/gondol.jpg" class="left margin-right" style="width:50px">
+                    <span class="large">Ipsum</span><br>
+                    <span>Praes tinci sed</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="third serif" style="padding-left: 10px;">
+            <h3>POPULAR TAGS</h3>
+            <p>
+                <span class="tag small black">Travel</span> <span class="tag small-grey">New York</span> <span
+                    class="tag small-grey">Dinner</span> <span class="tag small-grey">Salmon</span> <span
+                    class="tag small-grey">France</span> <span class="tag small-grey">Drinks</span> <span
+                    class="tag small-grey">Ideas</span> <span class="tag small-grey">Flavors</span> <span
+                    class="tag small-grey">Cuisine</span> <span class="tag small-grey">Chicken</span> <span
+                    class="tag small-grey">Dressing</span> <span class="tag small-grey">Fried</span> <span
+                    class="tag small-grey">Fish</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- End page content -->
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function openSideMenu() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeSideMenu() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
