@@ -141,10 +141,6 @@ a.sidemenu:hover {
     text-align: center;
 }
 
-.main {
-    transition: margin-left 0.4s;
-}
-
 .content {
     max-width: 980px;
     margin-left: auto;
@@ -272,7 +268,7 @@ hr {
 img {
     vertical-align: middle;
     border-style: none;
-    height: auto;
+    /* height: auto; */
 }
 
 .padding-16 {
